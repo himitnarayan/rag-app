@@ -1,0 +1,22 @@
+# Backend
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Frontend
+streamlit==1.55.0
+
+# RAG Core
+faiss-cpu==1.13.2
+sentence-transformers==5.3.0
+langchain-text-splitters==1.1.1
+
+# File Processing
+pdfplumber==0.11.9
+
+# HTTP & Utils
+requests==2.32.5
+python-dotenv==1.2.2
+
+# ML dependencies (auto-used)
+numpy>=2.0.0
+scikit-learn>=1.8.0
