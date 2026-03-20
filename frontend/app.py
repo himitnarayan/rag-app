@@ -3,7 +3,7 @@ import requests
 import time
 
 # 🔗 Backend URL
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://rag-app-j4l9.onrender.com"
 
 st.set_page_config(page_title="RAG Assistant", layout="wide")
 
