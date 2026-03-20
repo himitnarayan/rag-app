@@ -2,8 +2,8 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from typing import List
 import uvicorn
 
-from .rag_pipeline import RAGPipeline
-from .config import OPENROUTER_API_KEY, MODEL_NAME
+from backend.rag_pipeline import RAGPipeline
+from backend.config import OPENROUTER_API_KEY, MODEL_NAME
 
 app = FastAPI(
     title="RAG API",
